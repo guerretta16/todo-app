@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(15, 36, 75, 0.658);
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.container{
+
+    .button{
+        cursor: pointer;
+    }
+
+    .button{
+        img {
+            width: 25px;
+            margin-right: 10px;
+            background-color: #fff;
+            border-radius: 100%;
+            border: 2px #fff solid;
+        }
+    }
+
+    .info{
+        min-width: 300px;
+        width: 100%;
+    }
+
+    .info{
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        small{
+            display: block;
+            margin: 3px 0;
+        }
+    }
+
+}
+
+@media screen and (max-width:756px){
+    .container{
+        .info{
+            min-width: 200px;
+            font-size: 13px;
+        }
+    }
+}

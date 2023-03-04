@@ -1,0 +1,24 @@
+
+.App{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(132,233,115);
+    background: radial-gradient(circle, rgba(132,233,115,1) 0%, rgba(0,147,182,1) 77%);
+}
+
+.App {
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    h1{
+        margin: 0%;
+        text-align: center;
+    }
+}

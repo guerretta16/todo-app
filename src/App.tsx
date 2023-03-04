@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.scss';
+import { TodoForm } from './Components/TodoForm';
+import { TodoList } from './Components/TodoList';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       
+      <div className={styles.container}>
+        <TodoForm />
+        <TodoList />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.container{
+    background-color: #0093b6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    .top, .bottom{
+        h2{
+            color: #fff;
+            border-bottom: 2px #fff solid;
+        }
+    }
+    .list{
+        margin: 10px 0;
+    }
+    .list{
+        span{
+            display: block;
+            text-align: center;
+            color: #1c2972;
+            font-weight: 500;
+        }
+    }
+}
